@@ -45,12 +45,11 @@ body {
 				display: inline;
 				text-align: center;
 				text-transform: uppercase;
-				transition: 1s ease;
 				letter-spacing: 1px;
-				&:hover {
-					color: $main-font-color;
-					cursor: pointer;
-				}
+				// &:hover {
+				// 	// color: $main-font-color;
+				// 	cursor: pointer;
+				// }
 			}
 			li:nth-child(7) {
 				position: relative;

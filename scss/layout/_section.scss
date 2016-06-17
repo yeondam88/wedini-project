@@ -49,11 +49,14 @@
 		.button-1:hover {
 			opacity: 0.8;
 			color: white;
+			cursor: pointer;
+			background: tomato;
 		}
 		.button-2:hover {
 			opacity: 0.8;
 			color: white;
 			cursor: pointer;
+			background: tomato;
 		}
 	}
 .rabbit-icon {
@@ -68,24 +71,4 @@
 			transition: 1s ease;
 			animation-delay: 2s;
 		}
-}
-
-/*--------------------------------------
-	About Page
---------------------------------------*/
-#cards-container {
-	text-align: center;
-	text-transform: uppercase;
-	h1 {
-		font-size: 40px;
-	}
-	p {
-		font-size: 20px;
-	}
-	div {
-		display: flex-inline;
-		justify-content: center;
-		width: 70%
-
-	}
 }
